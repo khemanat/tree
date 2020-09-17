@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style color="yellow">
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color:#bfd7a0;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+     background-attachment: fixed;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+  float: left;
+  color:#015249;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.5s;
+}
+
+.topnav a:hover {
+  background-color:#15751b;
+  color: rgb(253, 253, 253);
+  transition-duration: 0.5s;
+}
+
+.topnav a.active {
+  background-color: yellow;
+  color:#015249;
+  
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align:center;
+
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+.btn{
+  
+    color: rgb(253, 253, 253);
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.5s;
+  padding: 12px 26px !important;
+  background-color:#15751b;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+  background-color:#01c50e;
+  color: rgb(253, 253, 253);
+  transition-duration: 0.5s;
+}
+
+
+.container{
+ opacity: 1.0;
+    margin: auto;
+  width: 80%;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.text-center{
+    text-align: center;
+}
+.logo{
+    width: 10%;
+    transition-duration: 0.5s;
+    animation: heartbeat 4.5s infinite;
+}
+
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+.card {
+  width: 90%;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-block;
+  background-color: white;
+}
+.section_1{
+    background-color: white !important;
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.content{
+    content: "";
+  display: table;
+  clear: both;
+}
+.col{
+    float: left;
+  width: 32%;
+}
+.section_2{
+    background-color: rgba(0, 133, 33, 0.8);
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2);
+    
+}
+
+.section_3{
+    background-color: rgb(221, 221, 221);
+}
+.text-color{
+    color:rgb(0, 71, 6);
+    border-left: 6px solid #015249;
+  background-color: rgb(240, 240, 240);
+  font-size: 30px;
+}
+    </style>
+<body>
+
+
+    <div class="topnav">
+
+        <div class="container">
+            <a >ต้นไม้มงคล  จาก  ลำลูกกาคลองแปด ป้ารวมไม้มงคล</a>
+         <div class="topnav-right">
+                
+            <a >ติดต่อ 02-6666-6666 </a>
+         
+         </div>
+        </div>
+       </div>
+       
+<div id="home" class="topnav" style=" border-bottom: 5px solid #015249;">
+
+   <div class="container"> 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+ 
+    
+
+    <div class="centered">
+        <a class="" href="#home">
+          <br>
+            Home <br>
+            <small>หน้าแรก  </small>
+        </a>  
+        <a class="" href="#product">
+           <br>
+            Product <br>
+            <small>สินค้ายอดนิยม  </small>
+        </a>   
+        <a class="" href="#info">
+            <br>
+            About <br>
+            <small>เกียวกับเรา  </small>
+        </a>          
+        <a class="" href="#contact">
+         <br>
+            Contact <br>
+            <small>ติดต่อเรา  </small>
+        </a>             
+    
+    </div>
+	<br>
+   </div>
+  </div>
+  <section>
+  <img src="https://i.ibb.co/2KVMfnf/bg.jpg" alt="bg" border="0" alt="tree" style="width:100%;">
+   
+    <div class="centered text-center">
+         <img class="logo" width="50%" src="">
+       
+         <h1 style="color:white;"></h1>
+         <p style="color:white;"></p>
+         
+        
+        <br><small style="color:white;"></small> 
+    </div>
+</section>
+<section style="margin-top: -10px;" class="section_1" id="product">
+    <br><Br><br>
+
+    <div class="container content">
+        <h2 class="text-color"><i class="fa fa-tree" aria-hidden="true"></i> ต้นไม้มงคล</h2>
+        <div class="col">
+        <div class="card">
+            <img src="https://i.ibb.co/McH0r58/1.png" alt="01" border="0" alt="" style="width:100%">
+            <div class="container">
+              <h2>ต้นดาวเรือง</h2> 
+              <p>
+  &nbsp;&nbsp;  เป็นดอกไม้มงคล ที่นิยมปลูกกันมากด้วยชื่อที่เป็นมงคลและสีเหลืองดั่งทอง "เสริมให้ชีวิตเจริญก้าวหน้า มีเงินมีทอง"
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>      
+    <div class="col">
+        <div class="card">
+            <img src="https://i.ibb.co/qN3gTFd/2.png" alt="020" border="0" alt="02" border="0" alt="" style="width:100%">
+            <div class="container">
+              <h2>ต้นแก้ว</h2> 
+              <p>
+  &nbsp;&nbsp;  เป็นไม้มงคลอีกชนิดหนึ่ง ที่นิยมปลูกกันมาก เพราะดอกแก้วนั้นมักจะส่งกลิ่นหอมเย็นอย่างน่าชื่นใจ "ส่งผลให้มีคนรักดั่งแก้วตาดวงใจ"
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>  
+    <div class="col">
+        <div class="card">
+            <img src="https://i.ibb.co/XsmdS8M/3.png" alt="04" border="0" alt="" style="width:100%">
+            <div class="container">
+              <h2>ต้นบานไม่รู้โรย</h2> 
+              <p>
+  &nbsp;&nbsp;  ถือเป็นไม้ดอกที่ชื่อเป็นมงคลนามอยู่แล้วว่า บานไม่รู้โรย จะช่วยเสริม "ด้านความรักของผู้อยู่อาศัยและคู่รักให้ผูกพันมั่นคงต่อกัน"
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>    
+</div>      
+<div class="container content">
+    <div class="col">
+    <div class="card">
+        <img src="https://i.ibb.co/ZJLqZFC/04.jpg" alt="" style="width:100%">
+        <div class="container">
+          <h2>ต้นวาสนา</h2> 
+          <p>
+&nbsp;&nbsp;  ด้วยความเชื่อว่า "ทำให้ผู้ปลูกมีโชคและวาสนาที่ดี เกิดความสุข สมหวัง"
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>      
+<div class="col">
+    <div class="card">
+        <img src="https://i.ibb.co/8mTMFHm/5.png" alt="" style="width:100%">
+        <div class="container">
+          <h2>ต้นเข็ม</h2> 
+          <p>
+&nbsp;&nbsp; เป็นต้นไม้มงคลควรปลูกต้นเข็มไว้ในบริเวณบ้านเชื่อว่า "จะทำให้สมองปลอดโปร่งเกิดความคิดความอ่านที่ดี ความคิดเฉียบขาด"
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>  
+<div class="col">
+    <div class="card">
+        <img src="https://i.ibb.co/Nn5tcxR/6.png" alt="" style="width:100%">
+        <div class="container">
+          <h2>ต้นกล้วยไม้</h2> 
+          <p>
+&nbsp;&nbsp;คนโบราณเชื่อว่า "กล้วยไม้ จะทำให้เกิดความประทับใจแก่บุคคลทั่วไป ทำให้คนในบ้านมีจริยธรรม"
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>    
+</div>      
+</section>
+<section id="info" class="section_2">
+    <Br><Br><Br>
+   <div class="container text-center">
+       <h2 style="color:white;" class="text-center ">ผลงานของเรา</h2>
+       <p style="color:white;"></p>
+       <br><Br><p style="color:white;">.... เร็วๆนี้</p><Br><Br>
+        <hr width="50%">
+
+   </div>
+   <Br><Br><Br>
+</section>
+<section id="contact" class="">
+     <Br><Br><Br>
+    <div class="container text-center">
+        <h2 style="color:white;" class="text-center ">ติดต่อ</h2>
+       <div class="btn">โทร 02-6666-6666</div> 
+       <br><small style="color:white;">รวม ไม่เหลเก</small> 
+    </div>
+    <Br><Br><Br>
+</section>
+    <footer>
+         <div class="container">
+        <marquee style="color:white"></marqueen>
+        </div>
+    </footer>
+</body>
+</html>
